@@ -1,4 +1,4 @@
-# calc
+# Loan Calculator
 
 ## Project setup
 ```
