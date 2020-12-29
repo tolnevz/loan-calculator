@@ -33,15 +33,15 @@
         <h3 class="text-center text-warning">{{ error }}</h3>
       </div>
       <div class="row box dark-gray-bg" v-if="payment">
-        <div class="col-xs-24 col-md-8 border-r">
+        <div class="col-xs-24 col-md-8 border-r p-2">
           <p class="text-center text-white">Payment amount</p>
           <h1 class="text-center text-white">{{ payment | currencyFormat }} / month</h1>
         </div>
-        <div class="col-xs-24 col-md-8 border-r">
+        <div class="col-xs-24 col-md-8 border-r p-2">
           <p class="text-center text-white">Total amount of loan with overpayment</p>
           <h1 class="text-center text-white">{{ loanAmountTotal | currencyFormat }}</h1>
         </div>
-        <div class="col-xs-24 col-md-8">
+        <div class="col-xs-24 col-md-8 p-2">
           <p class="text-center text-white">Overpayment</p>
           <h1 class="text-center text-white">{{ overpayment | currencyFormat }}</h1>
         </div>
