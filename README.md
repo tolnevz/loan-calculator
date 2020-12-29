@@ -1,6 +1,6 @@
 # Loan Calculator
 ### Demo
-See [demo here](https://cli.vuejs.org/config/).
+See [demo here](https://relaxed-yalow-397483.netlify.app/).
 
 ## Project setup
 ```
