@@ -1,4 +1,6 @@
 # Loan Calculator
+### Demo
+See [demo here](https://cli.vuejs.org/config/).
 
 ## Project setup
 ```
