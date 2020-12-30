@@ -26,13 +26,13 @@
           size="large"
           @click="calculate"
         >
-        Calculate payments per months
+        Calculate payments
         </Button>
       </div>
       <div v-if="error">
         <h3 class="text-center text-warning">{{ error }}</h3>
       </div>
-      <div class="row box dark-gray-bg" v-if="payment">
+      <div class="row box dark-gray-bg mb-40" v-if="payment">
         <div class="col-xs-24 col-md-8 border-r p-2">
           <p class="text-center text-white">Payment amount</p>
           <h1 class="text-center text-white">{{ payment | currencyFormat }} / month</h1>
